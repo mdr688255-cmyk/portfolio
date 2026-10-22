@@ -30,10 +30,7 @@
 }
 
 /* main style */
-header{
-    background-color: FFF8F3;
-    padding-top: 50px;
-}
+
 
 nav {
     width: 71%;
@@ -42,8 +39,7 @@ nav {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center;  
 }
 nav .menu{
     display: flex;
@@ -56,16 +52,21 @@ nav .menu a{
     color: #474747;
     text-decoration: none;
 }
+
+header{
+    background-color: #FFF8F3;
+    background: url("../images/developer.png")  , url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left,bottom right ;
+    background-repeat: no-repeat;
+    padding-top: 50px ;
+}
+
 #banner{
     /* border: 1px solid red; */
     margin: 47px 38px 0 230px ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: url("../images/developer.png")  , url("../images/header_bg.png"),#FFF8F3 ;
-    background-position: top left,bottom right;
-    background-repeat: no-repeat;
-    
+    align-items: center;  
 }
 
 #banner .banner-content{
